@@ -22,27 +22,27 @@ const Footer = () => {
 
           <div class="flex flex-col items-center justify-between mt-6 md:flex-row">
             <div>
-              <a
-                href="/"
-                class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+              <p
+                // href="/"
+                class="cursor-pointer text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
               >
-                Brand
-              </a>
+                Codify
+              </p>
             </div>
 
             <div class="flex mt-4 md:m-0">
               <div class="-mx-4">
                 <a
-                  href="#"
+                  href="/"
                   class="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline"
                 >
-                  About
+                  Home
                 </a>
                 <a
-                  href="#"
+                  href="https://nitinfab.medium.com/"
                   class="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline"
                 >
-                  Blog
+                  Medium Posts
                 </a>
                 {/* <a
                   href="#"
